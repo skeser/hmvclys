@@ -29,7 +29,7 @@ User / Pass     : demo/demo
 --Download
 --------------------------------------------------
 Dowload    :  http://www.sevketkeser.net/hmvc-lys/
-GitHub     :  https://github.com/skeser/ ??
+GitHub     :  https://github.com/skeser/hmvclys
 
 ++Yaptiklari
 --------------------------------------------------
