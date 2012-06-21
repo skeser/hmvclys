@@ -49,9 +49,9 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'hmvclys_user';
-$db['default']['password'] = 'hm1234lys';
-$db['default']['database'] = 'phcms';
+$db['default']['username'] = 'username_here';
+$db['default']['password'] = 'pass_here';
+$db['default']['database'] = 'dbname_here';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
