@@ -1,0 +1,20 @@
+RewriteEngine on
+
+RewriteBase /hmvclys/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^$ /cihbs/index.php [L]
+RewriteCond $1 !^(index\.php|assets|robots\.txt|favicon\.ico)
+RewriteRule ^(.*)$ index.php/$1 [L] 
+
+#RewriteEngine on
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond $1 !^(index\.php|robots\.txt)
+#RewriteRule ^(.*)$ index.php/$1
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^(application|system) index.php/$1 [L]
+
